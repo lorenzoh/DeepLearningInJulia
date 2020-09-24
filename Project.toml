@@ -1,0 +1,25 @@
+name = "DeepLearningInJulia"
+uuid = "05f61ad5-f2a1-43ef-aacb-c37d1ca91097"
+authors = ["Lorenz Ohly <lorenz.ohly@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+DLDatasets = "eb7515f2-3d1a-4576-a673-d8979fdf546c"
+DataAugmentation = "88a5189c-e7ff-4f85-ac6b-e6158070f02e"
+DataLoaders = "2e981812-ef13-4a9c-bfa0-ab13047b12a9"
+DeepLearningTasks = "e6530d7c-7faa-4ede-a0d6-9eff9baad396"
+FluxModels = "e26eb721-c8f4-421b-a64f-b383a566ead7"
+FluxTraining = "7bf95e4d-ca32-48da-9824-f0dc5310474f"
+GraphIO = "aa1b3936-2fda-51b9-ab35-c553d3a640a2"
+GraphPlot = "a2cc645c-3eea-5389-862e-a155d0052231"
+Latexify = "23fbe1c1-3f47-55db-b15f-69d7ec21a316"
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+ModelUtils = "fa899593-fe74-450d-a78c-2ae6a880e080"
+ParserCombinator = "fae87a5f-d1ad-5cf0-8f61-c941e1580b46"
+Publish = "f065f642-d108-4f50-8aa5-6749150a895a"
+
+[publish]
+title = "Deep learning in Julia"
+
+    [publish.html]
+    css = ["publish/custom.css"]

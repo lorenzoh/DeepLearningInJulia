@@ -1,0 +1,9 @@
+
+digraph inference {
+rankdir=LR;
+node [shape = none]
+input -> x [label = "encoding"]
+x -> ypred
+model -> ypred
+ypred -> targetpred [label = "decoding"]
+}

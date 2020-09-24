@@ -1,0 +1,18 @@
+
+digraph trainingstep {
+    rankdir=LR;
+    node [arrowsize = 0.2 shape = ellipse, fontname = "Palatino", style="filled", fillcolor="#f9f9f9", penwidth = 0, fontcolor = "gray"];
+    edge [arrowsize = 0.4, concentrate = "true", color = gray];
+    aug [shape = none, label = "augmentation &\n encoding"]
+    inputs, targets [fontcolor = "black"]
+
+    {inputs, targets} -> aug [concentrate = "true"]
+    aug -> {xs, ys} 
+    {xs, model} -> ypreds
+    {ys, ypreds, lossfn} -> loss;
+    loss -> grads;
+    {optimizer, grads, model} -> "model'"
+
+    { rank=same; xs ys}
+    { rank=same; optimizer grads}
+}
