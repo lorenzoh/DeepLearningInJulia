@@ -7,11 +7,14 @@ using DeepLearningTasks
 using DeepLearningTasks: encodeinput, encodetarget
 using DLDatasets
 using MLDataPattern
+using Core
 
 
+# {tests=`Int_`}
 # ## Loading data
+# [`Int`](#)
 # Let's next load the ImageNette datasets using `DLDatasets.jl`:
-# {cell=a}
+# {cell=a tests=`Int_`}
 
 ds = DLDatasets.loaddataset(ImageNette, "v2_160px")
 

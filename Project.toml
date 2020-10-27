@@ -22,4 +22,4 @@ Publish = "f065f642-d108-4f50-8aa5-6749150a895a"
 title = "Deep learning in Julia"
 
     [publish.html]
-    css = ["publish/custom.css"]
+    css = ["docs/custom.css"]
