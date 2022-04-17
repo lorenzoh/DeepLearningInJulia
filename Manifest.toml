@@ -238,11 +238,11 @@ version = "1.0.0"
 deps = ["Printf"]
 uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
 
-[[DeepLearningTasks]]
+[[DLPipelines]]
 deps = ["Colors", "DataAugmentation", "DataLoaders", "Flux", "FluxTraining", "LearnBase", "Parameters", "StaticArrays"]
 git-tree-sha1 = "4b792c29abca859d334aed410ce34dfe5f4fd186"
 repo-rev = "master"
-repo-url = "https://github.com/lorenzoh/DeepLearningTasks.jl"
+repo-url = "https://github.com/lorenzoh/DLPipelines.jl"
 uuid = "e6530d7c-7faa-4ede-a0d6-9eff9baad396"
 version = "0.1.0"
 

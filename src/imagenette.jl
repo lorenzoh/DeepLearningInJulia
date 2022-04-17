@@ -3,8 +3,8 @@
 
 using DataLoaders
 using DataAugmentation
-using DeepLearningTasks
-using DeepLearningTasks: encodeinput, encodetarget
+using DLPipelines
+using DLPipelines: encodeinput, encodetarget
 using DLDatasets
 using MLDataPattern
 using Core

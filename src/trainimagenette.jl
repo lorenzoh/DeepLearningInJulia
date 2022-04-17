@@ -1,12 +1,12 @@
 using DataLoaders
-using DeepLearningTasks
+using DLPipelines
 using DLDatasets
 using Flux
 using FluxModels
 using FluxTraining
 using MLDataPattern
 
-# Define the learning task, see https://github.com/lorenzoh/DeepLearningTasks.jl/blob/master/src/tasks/imageclassification.jl
+# Define the learning task, see https://github.com/lorenzoh/DLPipelines.jl/blob/master/src/tasks/imageclassification.jl
 # for the implementation.
 
 task = ImageClassification(10, sz = (224, 224))

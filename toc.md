@@ -5,4 +5,4 @@
 
 [Deep learning pipeline](src/pipeline.jl)
 
-[DeepLearningTasks.jl](src/dltasks.md)
+[DLPipelines.jl](src/dltasks.md)
